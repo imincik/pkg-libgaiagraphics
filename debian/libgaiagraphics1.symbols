@@ -1,0 +1,283 @@
+libgaiagraphics.so.1 #PACKAGE# #MINVER#
+ gGraphAddLineToPath@Base 0.4b
+ gGraphCheckAscPath@Base 0.4b
+ gGraphCheckBinPath@Base 0.4b
+ gGraphCheckDemPath@Base 0.4b
+ gGraphCheckFltPath@Base 0.4b
+ gGraphCheckHgtPath@Base 0.4b
+ gGraphCloseSubpath@Base 0.4b
+ gGraphColorRuleFromFile@Base 0.4b
+ gGraphColorRuleFromMemBuf@Base 0.4b
+ gGraphCountColors@Base 0.4b
+ gGraphCreateBitmap@Base 0.4b
+ gGraphCreateBrush@Base 0.4b
+ gGraphCreateColorMapAbsolute@Base 0.4b
+ gGraphCreateColorMapRelative@Base 0.4b
+ gGraphCreateContext@Base 0.4b
+ gGraphCreateFont@Base 0.4b
+ gGraphCreateGrayscaleImage@Base 0.4b
+ gGraphCreateGridDoubleImage@Base 0.4b
+ gGraphCreateGridFloatImage@Base 0.4b
+ gGraphCreateGridInt16Image@Base 0.4b
+ gGraphCreateGridInt32Image@Base 0.4b
+ gGraphCreateGridUInt16Image@Base 0.4b
+ gGraphCreateGridUInt32Image@Base 0.4b
+ gGraphCreateMonochromeImage@Base 0.4b
+ gGraphCreatePaletteImage@Base 0.4b
+ gGraphCreatePdfContext@Base 0.4b
+ gGraphCreateRgbImage@Base 0.4b
+ gGraphCreateRgbImageFromBitmap@Base 0.4b
+ gGraphCreateRgbaImage@Base 0.4b
+ gGraphCreateSVG@Base 0.5
+ gGraphCreateShadedReliefTripleRow@Base 0.4b
+ gGraphCreateSvgContext@Base 0.4b
+ gGraphDestroyBitmap@Base 0.4b
+ gGraphDestroyBrush@Base 0.4b
+ gGraphDestroyColorMap@Base 0.4b
+ gGraphDestroyColorRule@Base 0.4b
+ gGraphDestroyContext@Base 0.4b
+ gGraphDestroyFont@Base 0.4b
+ gGraphDestroyImage@Base 0.4b
+ gGraphDestroyImageInfos@Base 0.4b
+ gGraphDestroyPdfContext@Base 0.4b
+ gGraphDestroyShadedReliefTripleRow@Base 0.4b
+ gGraphDestroySvgContext@Base 0.4b
+ gGraphDrawBitmap@Base 0.4b
+ gGraphDrawCircleSector@Base 0.4b
+ gGraphDrawEllipse@Base 0.4b
+ gGraphDrawRectangle@Base 0.4b
+ gGraphDrawRoundedRectangle@Base 0.4b
+ gGraphDrawText@Base 0.4b
+ gGraphFileImageGuessFormat@Base 0.4b
+ gGraphFillPath@Base 0.4b
+ gGraphFontSetColor@Base 0.4b
+ gGraphFontSetOutline@Base 0.4b
+ gGraphFreeSVG@Base 0.5
+ gGraphGeoMergePixels@Base 0.4b
+ gGraphGetContextAlphaArray@Base 0.4b
+ gGraphGetContextRgbArray@Base 0.4b
+ gGraphGetImageDims@Base 0.4b
+ gGraphGetImageInfos@Base 0.4b
+ gGraphGetImageSize@Base 0.4b
+ gGraphGetLandsatSceneExtent@Base 0.4b
+ gGraphGetSVGDims@Base 0.5
+ gGraphGetStripImageMinMaxValue@Base 0.4b
+ gGraphGetTextExtent@Base 0.4b
+ gGraphGetWorldFilePath@Base 0.4b
+ gGraphGridBackgroundFill@Base 0.4b
+ gGraphImageBackgroundFill@Base 0.4b
+ gGraphImageBufferReferenceARGB@Base 0.4b
+ gGraphImageBufferReferenceBGR@Base 0.4b
+ gGraphImageBufferReferenceBGRA@Base 0.4b
+ gGraphImageBufferReferenceRGB@Base 0.4b
+ gGraphImageBufferReferenceRGBA@Base 0.4b
+ gGraphImageColorSpaceOptimize@Base 0.4b
+ gGraphImageFromAdam7@Base 0.4b
+ gGraphImageFromAscFileByStrips@Base 0.4b
+ gGraphImageFromBinFileByStrips@Base 0.4b
+ gGraphImageFromDemFileByStrips@Base 0.4b
+ gGraphImageFromFile@Base 0.4b
+ gGraphImageFromFileByStrips@Base 0.4b
+ gGraphImageFromFltFileByStrips@Base 0.4b
+ gGraphImageFromHgtFileByStrips@Base 0.4b
+ gGraphImageFromMemBuf@Base 0.4b
+ gGraphImageFromMonochrome@Base 0.4b
+ gGraphImageFromRawMemBuf@Base 0.4b
+ gGraphImageFromSVG@Base 0.5
+ gGraphImageFromStripImage@Base 0.4b
+ gGraphImageGetGeoRef@Base 0.4b
+ gGraphImageGetNoDataValue@Base 0.4b
+ gGraphImageGetTransparentColor@Base 0.4b
+ gGraphImageGuessFormat@Base 0.4b
+ gGraphImageInfosFromAscFile@Base 0.4b
+ gGraphImageInfosFromBinFile@Base 0.4b
+ gGraphImageInfosFromDemFile@Base 0.4b
+ gGraphImageInfosFromFile@Base 0.4b
+ gGraphImageInfosFromFltFile@Base 0.4b
+ gGraphImageInfosFromHgtFile@Base 0.4b
+ gGraphImageInfosFromMemBuf@Base 0.4b
+ gGraphImageInfosGetGeoRef@Base 0.4b
+ gGraphImageIsGeoRef@Base 0.4b
+ gGraphImageResampleAsGrayscale@Base 0.4b
+ gGraphImageResampleAsGridDouble@Base 0.4b
+ gGraphImageResampleAsGridFloat@Base 0.4b
+ gGraphImageResampleAsGridInt16@Base 0.4b
+ gGraphImageResampleAsGridInt32@Base 0.4b
+ gGraphImageResampleAsGridUInt16@Base 0.4b
+ gGraphImageResampleAsGridUInt32@Base 0.4b
+ gGraphImageResampleAsMonochrome@Base 0.4b
+ gGraphImageResampleAsPalette@Base 0.4b
+ gGraphImageResampleAsPhotographic@Base 0.4b
+ gGraphImageResampleAsRgb@Base 0.4b
+ gGraphImageResizeHighQuality@Base 0.4b
+ gGraphImageResizeNormal@Base 0.4b
+ gGraphImageResizeToResolution@Base 0.4b
+ gGraphImageSetGeoRef@Base 0.4b
+ gGraphImageSetNoDataValue@Base 0.4b
+ gGraphImageSetTransparentColor@Base 0.4b
+ gGraphImageSubSet@Base 0.4b
+ gGraphImageToAdam7@Base 0.4b
+ gGraphImageToAscFileByStrips@Base 0.4b
+ gGraphImageToBinHdrFileByStrips@Base 0.4b
+ gGraphImageToFltHdrFileByStrips@Base 0.4b
+ gGraphImageToGeoTiffFileByStrips@Base 0.4b
+ gGraphImageToGifFile@Base 0.4b
+ gGraphImageToGifMemBuf@Base 0.4b
+ gGraphImageToJpegFile@Base 0.4b
+ gGraphImageToJpegFileByStrips@Base 0.4b
+ gGraphImageToJpegMemBuf@Base 0.4b
+ gGraphImageToMonochrome@Base 0.4b
+ gGraphImageToPngFile@Base 0.4b
+ gGraphImageToPngFileByStrips@Base 0.4b
+ gGraphImageToPngMemBuf@Base 0.4b
+ gGraphImageToTiffFileByStrips@Base 0.4b
+ gGraphImageTransparentResample@Base 0.4b
+ gGraphInputPixelsFromStripImage@Base 0.4b
+ gGraphIsColorRuleRelative@Base 0.4b
+ gGraphIsRawImage@Base 0.4b
+ gGraphLandsatBW@Base 0.4b
+ gGraphLandsatMergePixels@Base 0.4b
+ gGraphLandsatRGB@Base 0.4b
+ gGraphMoveToPoint@Base 0.4b
+ gGraphOutputPixelsToStripImage@Base 0.4b
+ gGraphReadNextStrip@Base 0.4b
+ gGraphReadWorldFile@Base 0.4b
+ gGraphSetBrush@Base 0.4b
+ gGraphSetFont@Base 0.4b
+ gGraphSetLinearGradientBrush@Base 0.4b
+ gGraphSetPatternBrush@Base 0.4b
+ gGraphSetPen@Base 0.4b
+ gGraphShadedReliefRenderPixels@Base 0.4b
+ gGraphSmartPrintf@Base 0.4b
+ gGraphStripImageAllocPixels@Base 0.4b
+ gGraphStripImageClonePalette@Base 0.4b
+ gGraphStripImageCopyPixels@Base 0.4b
+ gGraphStripImageEOF@Base 0.4b
+ gGraphStripImageGetCurrentRows@Base 0.4b
+ gGraphStripImageGetNextRow@Base 0.4b
+ gGraphStripImageGetPixelRGB@Base 0.4b
+ gGraphStripImageGetShadedReliefScanline@Base 0.4b
+ gGraphStripImageRenderGridPixels@Base 0.4b
+ gGraphStripImageRewind@Base 0.4b
+ gGraphStripImageSetCurrentRows@Base 0.4b
+ gGraphStripImageSetPixelRGB@Base 0.4b
+ gGraphStripImageSetShadedReliefScanline@Base 0.4b
+ gGraphStripImageSubSetPixels@Base 0.4b
+ gGraphStripIsFull@Base 0.4b
+ gGraphStrokeLine@Base 0.4b
+ gGraphStrokePath@Base 0.4b
+ gGraphWriteBinHeader@Base 0.4b
+ gGraphWriteFltHeader@Base 0.4b
+ gGraphWriteNextStrip@Base 0.4b
+#MISSING: 0.5# gg_color_map_create@Base 0.4b
+#MISSING: 0.5# gg_color_map_destroy@Base 0.4b
+#MISSING: 0.5# gg_color_rule_create@Base 0.4b
+#MISSING: 0.5# gg_color_rule_destroy@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_argb@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_bgr@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_bgra@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grayscale@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grid_double@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grid_float@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grid_int16@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grid_int32@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grid_uint16@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_grid_uint32@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_monochrome@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_palette@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_rgb@Base 0.4b
+#MISSING: 0.5# gg_convert_image_to_rgba@Base 0.4b
+#MISSING: 0.5# gg_endian_arch@Base 0.4b
+#MISSING: 0.5# gg_export_double@Base 0.4b
+#MISSING: 0.5# gg_export_float@Base 0.4b
+#MISSING: 0.5# gg_export_int16@Base 0.4b
+#MISSING: 0.5# gg_export_int32@Base 0.4b
+#MISSING: 0.5# gg_export_uint16@Base 0.4b
+#MISSING: 0.5# gg_export_uint32@Base 0.4b
+#MISSING: 0.5# gg_grid_codec_destroy@Base 0.4b
+#MISSING: 0.5# gg_grid_resize@Base 0.4b
+#MISSING: 0.5# gg_image_clone_georeferencing@Base 0.4b
+#MISSING: 0.5# gg_image_create@Base 0.4b
+#MISSING: 0.5# gg_image_create_from_bitmap@Base 0.4b
+#MISSING: 0.5# gg_image_destroy@Base 0.4b
+#MISSING: 0.5# gg_image_fill@Base 0.4b
+#MISSING: 0.5# gg_image_from_gif@Base 0.4b
+#MISSING: 0.5# gg_image_from_jpeg@Base 0.4b
+#MISSING: 0.5# gg_image_from_mem_tiff@Base 0.4b
+#MISSING: 0.5# gg_image_from_png@Base 0.4b
+#MISSING: 0.5# gg_image_from_raw@Base 0.4b
+#MISSING: 0.5# gg_image_infos_create@Base 0.4b
+#MISSING: 0.5# gg_image_infos_destroy@Base 0.4b
+#MISSING: 0.5# gg_image_infos_from_geo_tiff@Base 0.4b
+#MISSING: 0.5# gg_image_infos_from_gif@Base 0.4b
+#MISSING: 0.5# gg_image_infos_from_jpeg@Base 0.4b
+#MISSING: 0.5# gg_image_infos_from_mem_tiff@Base 0.4b
+#MISSING: 0.5# gg_image_infos_from_png@Base 0.4b
+#MISSING: 0.5# gg_image_infos_from_tiff@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_ascii_grid_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_bin_hdr_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_flt_hdr_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_geotiff_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_jpeg_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_png_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_prepare_to_tiff_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_resample_as_palette@Base 0.4b
+#MISSING: 0.5# gg_image_resize@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_ascii_grid@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_bin_hdr@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_dem_hdr@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_flt_hdr@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_geotiff@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_hgt@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_jpeg@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_png@Base 0.4b
+#MISSING: 0.5# gg_image_strip_prepare_from_tiff@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_ascii_grid@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_bin_grid@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_dem_grid@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_hgt@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_jpeg@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_png@Base 0.4b
+#MISSING: 0.5# gg_image_strip_read_from_tiff@Base 0.4b
+#MISSING: 0.5# gg_image_sub_set@Base 0.4b
+#MISSING: 0.5# gg_image_to_gif@Base 0.4b
+#MISSING: 0.5# gg_image_to_jpeg@Base 0.4b
+#MISSING: 0.5# gg_image_to_png@Base 0.4b
+#MISSING: 0.5# gg_image_write_to_ascii_grid_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_write_to_bin_hdr_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_write_to_flt_hdr_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_write_to_jpeg_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_write_to_png_by_strip@Base 0.4b
+#MISSING: 0.5# gg_image_write_to_tiff_by_strip@Base 0.4b
+#MISSING: 0.5# gg_import_double@Base 0.4b
+#MISSING: 0.5# gg_import_float@Base 0.4b
+#MISSING: 0.5# gg_import_int16@Base 0.4b
+#MISSING: 0.5# gg_import_int32@Base 0.4b
+#MISSING: 0.5# gg_import_uint16@Base 0.4b
+#MISSING: 0.5# gg_import_uint32@Base 0.4b
+#MISSING: 0.5# gg_is_image_grayscale@Base 0.4b
+#MISSING: 0.5# gg_is_image_monochrome@Base 0.4b
+#MISSING: 0.5# gg_is_image_monochrome_ready@Base 0.4b
+#MISSING: 0.5# gg_is_image_palette256@Base 0.4b
+#MISSING: 0.5# gg_jpeg_codec_destroy@Base 0.4b
+#MISSING: 0.5# gg_make_grid_thumbnail@Base 0.4b
+#MISSING: 0.5# gg_make_thumbnail@Base 0.4b
+#MISSING: 0.5# gg_match_palette@Base 0.4b
+#MISSING: 0.5# gg_match_strip_palette@Base 0.4b
+#MISSING: 0.5# gg_png_codec_destroy@Base 0.4b
+#MISSING: 0.5# gg_resample_transparent_grayscale@Base 0.4b
+#MISSING: 0.5# gg_resample_transparent_palette@Base 0.4b
+#MISSING: 0.5# gg_resample_transparent_rgb@Base 0.4b
+#MISSING: 0.5# gg_resample_transparent_rgba@Base 0.4b
+#MISSING: 0.5# gg_shaded_relief_triple_row_create@Base 0.4b
+#MISSING: 0.5# gg_shaded_relief_triple_row_destroy@Base 0.4b
+#MISSING: 0.5# gg_strip_image_create@Base 0.4b
+#MISSING: 0.5# gg_strip_image_destroy@Base 0.4b
+#MISSING: 0.5# gg_tiff_codec_destroy@Base 0.4b
+#MISSING: 0.5# match_color@Base 0.4b
+#MISSING: 0.5# overflow2@Base 0.4b
+#MISSING: 0.5# xgdDPExtractData@Base 0.4b
+#MISSING: 0.5# xgdGetBuf@Base 0.4b
+#MISSING: 0.5# xgdNewDynamicCtx@Base 0.4b
+#MISSING: 0.5# xgdNewDynamicCtxEx@Base 0.4b
+#MISSING: 0.5# xgdPutBuf@Base 0.4b

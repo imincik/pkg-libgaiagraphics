@@ -1,0 +1,58 @@
+Source: libgaiagraphics
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>,
+           Bas Couwenberg <sebastic@xs4all.nl>
+Section: libs
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               autotools-dev,
+               dh-autoreconf,
+               libjpeg8-dev,
+               libgeotiff-dev,
+               zlib1g-dev,
+               libtiff-dev,
+               libproj-dev,
+               libpng-dev,
+               libcairo2-dev,
+               libxml2-dev
+Standards-Version: 3.9.4
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-grass/libgaiagraphics.git
+Vcs-Git: git://anonscm.debian.org/pkg-grass/libgaiagraphics.git
+Homepage: https://www.gaia-gis.it/fossil/libgaiagraphics/index
+
+Package: libgaiagraphics-dev
+Architecture: any
+Section: libdevel
+Depends: libgaiagraphics1 (= ${binary:Version}),
+         ${misc:Depends}
+Description: Gaia common graphics support - development headers
+ libgaiagraphics is a library supporting common-utility raster handling
+ functions.
+ .
+ This package contains files needed for development.
+
+Package: libgaiagraphics1
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Gaia common graphics support
+ libgaiagraphics is a library supporting common-utility raster handling
+ functions.
+ .
+ This package contains the shared library.
+
+Package: libgaiagraphics1-dbg
+Architecture: any
+Multi-Arch: same
+Section: debug
+Priority: extra
+Depends: ${misc:Depends},
+         libgaiagraphics1 (= ${binary:Version})
+Description: Gaia common graphics support - debugging symbols
+ libgaiagraphics is a library supporting common-utility raster handling
+ functions.
+ .
+ This package contains debugging symbols.
+

@@ -1,0 +1,25 @@
+libgaiagraphics (0.5-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add myself to uploaders.
+  * Use canonical URLs in Vcs-* fields.
+  * Use dh-autoreconf for retooling.
+  * Build depend on libtiff-dev instead of libtiff5-dev.
+  * Add build dependency on libxml2-dev.
+  * Use upstream version without debian revision when generating symbols.
+  * Pass all hardening flags to configure.
+  * Add lintian overrides for no upstream changelog, link to upstream timeline.
+  * Improve extended description for the shared library package.
+  * Update symbols file for 0.5 on amd64.
+  * Update copyright file.
+  * Bump debhelper compatibility to 9.
+  * Enable Multi-Arch for libgaiagraphics1.
+
+ -- Bas Couwenberg <sebastic@xs4all.nl>  Mon, 30 Sep 2013 20:11:57 +0200
+
+libgaiagraphics (0.4b-1) unstable; urgency=low
+
+  * Initial release, this package is needed by newer versions of
+    spatialite-gui.
+
+ -- David Paleino <dapal@debian.org>  Sun, 30 Sep 2012 11:38:04 +0200
