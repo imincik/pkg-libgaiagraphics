@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: gaiagraphics
+Description: Gaia Common Graphics Support
+Version: 1.0
+Libs: -L${libdir} -lgaiagraphics
+Cflags: -I${includedir}

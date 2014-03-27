@@ -1,0 +1,1 @@
+If you get build (compilation) errors about missing symbols or types starting with wx, then try installing the GTK version of the WxWidgets packages (if any).
